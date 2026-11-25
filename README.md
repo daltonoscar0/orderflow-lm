@@ -1,5 +1,7 @@
 # orderflow-lm
 
+[![tests](https://github.com/daltonoscar0/orderflow-lm/actions/workflows/tests.yml/badge.svg)](https://github.com/daltonoscar0/orderflow-lm/actions/workflows/tests.yml)
+
 Language-model analysis toolkit pointed at limit order book message
 streams. Market events are treated as a discrete symbol system: parse the
 raw feed, reconstruct the book, tokenize events into a factored vocabulary,
@@ -110,3 +112,7 @@ Consequences, measured and specced in `SPEC.md`:
   to the add they consume.
 - The model only ever observes events inside the sample's price window;
   surprisal and probing conclusions are bounded accordingly.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
